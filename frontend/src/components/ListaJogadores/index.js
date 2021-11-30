@@ -8,7 +8,7 @@ import './ListaJogadores.css';
 const ListaJogadores = ({jogadores}) => {
 const [message, setMessage] = useState(" ");
     const deleteJogador = (id) => {
-        Jogadoresdb.makeRequest("http://localhost:3001/'+id+'/jogador", "DELETE").then(function(response) {
+        Jogadoresdb.makeRequest("http://localhost:3001/"+id+"/jogador", "DELETE").then(function(response) {
             response.json().then(function(message) {
                 setMessage("Jogador deletado com sucesso!");
                 // eslint-disable-next-line no-restricted-globals
