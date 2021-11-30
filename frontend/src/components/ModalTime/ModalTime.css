@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,700; 1,400 & display swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-jogadores {
+    position:fixed;
+    width:100%;
+    height:100vh;
+    top:0px;
+    left:0;
+    z-index:9999;
+    background-color:transparent;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.modal-jogadores .nav {
+    margin-top:-55px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    height:20px;
+}
+.modal-jogadores .nav-b {
+    height:40px;
+}
+.modal-jogadores .nav-c {
+    height:25px;
+}
+.modal-jogadores .container {
+    background-color:#fff;
+    color:#000;
+    width:60%;
+    height:80vh;
+    border-radius:20px;
+}
+.modal-jogadores .close {
+    cursor:pointer;
+    background-color:transparent;
+    border:none;
+    top:16px;
+    right:calc(-100% + 64px);
+    display:flex;
+    position:relative;
+    align-items:center;
+    color: #d3d3d3;
+}
+.cabecalho {
+    padding: 20px;
+}
+.corpo {
+    display: flex;
+}
+.corpo .jogadores {
+    display:flex;
+    margin-top:-20px;
+    padding-left:20px;
+    width: 300px;
+     margin-bottom: -80px;
+}
+.corpo .message {
+    font-weight:normal;
+    color: #d3d3d3;
+}
+.btn-add-jogador { 
+    position:fixed;   
+    border: 1px solid #1C1C1C;
+    background-color: #1C1C1C;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px; 
+    text-align: center;
+    top: 540px;
+    cursor: pointer;
+    transition: ease all 3ms;
+}
+.btn-add-jogador:hover {
+    background-color:transparent;
+    color: #1C1C1C;
+}
+.rodape {
+    padding-left: 20px;
+    padding-top: 150px;
+}
