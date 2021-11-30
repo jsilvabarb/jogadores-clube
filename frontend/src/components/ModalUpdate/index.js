@@ -29,7 +29,7 @@ const ModalUpdate = ({onClose = () => {}, idJogador, nomeJogador, descricaoJogad
         const { nome_jogador, descricao_jogador, imagem_jogador } = data;
 
         if(nome_jogador !=="" && descricao_jogador !== "" && imagem_jogador !== "") {
-            Jogadoresdb.makeRequest("http://localhost:3001/'+idJogador+'/jogador", "PUT", JSON.stringify(formValues)).then(function(response) {
+            Jogadoresdb.makeRequest("http://localhost:3001/"+idJogador+"/jogador", "PUT", JSON.stringify(formValues)).then(function(response) {
                 response.text().then(function(message) {
                 setMessage("Jogador atualizado com sucesso!");
 
