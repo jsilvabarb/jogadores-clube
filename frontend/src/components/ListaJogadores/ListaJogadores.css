@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,700; 1,400 & display swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.jogadores-area .personagens-lista {
+    width: 60%;
+   
+}
+
+.jogadores-area .delete {
+    background-color:transparent;
+    border: none;
+    color:#D2691E;
+    cursor: pointer;
+}
+
+.jogadores-lista-item img {
+    width: 30px;
+    height:30px;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    
+}
+
+.jogadores-lista-item .card {
+    background-color:#d3d3d3;
+    border-radius:5px;
+    padding:10px;
+    height:180px;
+    width:120px;
+    margin-left:8px;    
+}
+.jogadores-lista-item .card .img {
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+.jogadores-lista-item .card .up-del {
+    display:flex;
+    justify-content: space-between;
+    margin-top:80px;
+}
+
+.jogadores-lista-item .card .up-del .update {
+    border:none;
+    background-color:transparent;
+    color:#4876FF;
+    font-size:16px;
+    cursor: pointer;
+}
+
+/* .jogadores-lista-item img:hover {
+    transform:scale(1);
+} */
+.jogadores-lista-item .btn-posicao-detalhe {
+    background-color: transparent;
+    border:none;
+    cursor:pointer;
+}
