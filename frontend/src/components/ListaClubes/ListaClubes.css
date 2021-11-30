@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,700; 1,400 & display swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.lista-clubes-item {
+    display: flex;
+    padding: 50px;
+   
+}
+.lista-clubes-item img {
+    height: 150px;
+    width: 100px;
+}
+
+.lista-clubes-item .descricao {
+    padding-left: 50px;
+    color: rgb(53, 51, 51);
+}
+.lista-clubes-item h4 {
+    font-weight: normal;
+    text-align: justify;
+    width: 85%;
+
+}
+
+.lista-clubes-item .btn {
+    border: 1px solid #1C1C1C;
+    background-color: #1C1C1C;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px; 
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: ease all 3ms;
+     
+}
+.lista-clubes-item .btn:hover {
+    background-color:transparent;
+    color: #1C1C1C;
+}
+.lista-clubes-item hr {
+    color: rgb(158, 145, 145);
+    width: 100%;
+}
